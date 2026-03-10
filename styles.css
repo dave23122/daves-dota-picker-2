@@ -48,43 +48,39 @@ margin-bottom:8px;
 /* HERO GRID */
 
 #heroGrid{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-align-items:flex-start;
-max-width:1500px;
-margin:auto;
-gap:20px;
-}
-
-.letterSection{
-width:260px;
-}
-
-.letter{
-font-size:18px;
-text-align:left;
-margin-bottom:4px;
-}
-
-.heroList{
 display:grid;
-grid-template-columns:repeat(6, 60px);
-grid-auto-rows:34px;
+grid-template-columns:repeat(20, 56px);
+grid-auto-rows:42px;
+justify-content:center;
+margin:auto;
+max-width:1120px;
 gap:0;
 }
 
 .hero{
-width:60px;
-height:34px;
+width:56px;
+height:32px;
 cursor:pointer;
+position:relative;
 }
 
 .hero img{
-width:60px;
-height:34px;
+width:56px;
+height:32px;
 object-fit:cover;
 display:block;
+}
+
+/* alphabet label */
+
+.heroLetter{
+position:absolute;
+top:-14px;
+left:2px;
+font-size:12px;
+font-weight:bold;
+color:#aaa;
+pointer-events:none;
 }
 
 

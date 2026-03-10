@@ -47,31 +47,29 @@ function createGrid(filter=""){
 
 heroGrid.innerHTML=""
 
+/* flatten hero list */
+
+let heroList=[]
+
 const letters=Object.keys(heroesGrouped).sort()
 
 letters.forEach(letter=>{
+heroesGrouped[letter].forEach(hero=>{
+heroList.push(hero)
+})
+})
 
-const heroes=heroesGrouped[letter]
+/* filter */
 
-const filtered=heroes.filter(hero =>
+heroList=heroList.filter(hero =>
 hero.displayName.toLowerCase().includes(filter.toLowerCase())
 )
 
-if(filtered.length===0) return
+let lastLetter=""
 
-let section=document.createElement("div")
-section.className="letterSection"
+/* create grid */
 
-let label=document.createElement("div")
-label.className="letter"
-label.innerText=letter
-
-section.appendChild(label)
-
-let heroList=document.createElement("div")
-heroList.className="heroList"
-
-filtered.forEach(hero=>{
+heroList.forEach(hero=>{
 
 let div=document.createElement("div")
 div.className="hero"
@@ -82,7 +80,32 @@ img.src=heroImage(hero.name)
 
 div.appendChild(img)
 
-/* TOOLTIP */
+/* detect first hero of letter */
+
+let firstLetter=hero.displayName[0].toUpperCase()
+
+if(firstLetter!==lastLetter){
+
+let letterLabel=document.createElement("div")
+letterLabel.className="heroLetter"
+letterLabel.innerText=firstLetter
+
+div.appendChild(letterLabel)
+
+lastLetter=firstLetter
+
+}
+
+/* click events */
+
+div.onclick=()=>addHero(hero.hero_id,true)
+
+div.oncontextmenu=(e)=>{
+e.preventDefault()
+addHero(hero.hero_id,false)
+}
+
+/* tooltip */
 
 div.addEventListener("mouseenter",(e)=>{
 
@@ -112,20 +135,7 @@ div.tooltip=null
 
 })
 
-div.onclick=()=>addHero(hero.hero_id,true)
-
-div.oncontextmenu=(e)=>{
-e.preventDefault()
-addHero(hero.hero_id,false)
-}
-
-heroList.appendChild(div)
-
-})
-
-section.appendChild(heroList)
-
-heroGrid.appendChild(section)
+heroGrid.appendChild(div)
 
 })
 
