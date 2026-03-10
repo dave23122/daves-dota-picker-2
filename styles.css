@@ -3,26 +3,27 @@ font-family:Arial;
 background:#111;
 color:white;
 text-align:center;
-margin:20px;
+margin:10px;
+overflow:hidden;
 }
 
 h1{
-margin-bottom:20px;
+margin-bottom:10px;
 }
 
 .teams{
 display:flex;
 justify-content:center;
 gap:120px;
-margin-bottom:20px;
+margin-bottom:10px;
 }
 
 .team{
 display:flex;
-gap:10px;
+gap:6px;
 flex-wrap:wrap;
 justify-content:center;
-min-height:70px;
+min-height:40px;
 }
 
 .team img{
@@ -33,43 +34,46 @@ cursor:pointer;
 }
 
 #search{
-padding:8px;
+padding:6px;
 width:260px;
-margin:20px;
+margin:10px;
 }
 
 .instructions{
-margin-bottom:20px;
-font-size:14px;
+font-size:13px;
 color:#bbb;
+margin-bottom:8px;
 }
 
 
 /* HERO GRID */
 
 #heroGrid{
+height:380px;
+overflow-y:auto;
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
-gap:40px;
 max-width:1200px;
 margin:auto;
 }
 
 .letterSection{
-width:220px;
+width:210px;
+margin:4px;
 }
 
 .letter{
-font-size:20px;
-margin-bottom:6px;
+font-size:18px;
 text-align:left;
+margin-bottom:2px;
 }
 
 .heroList{
-display:flex;
-flex-wrap:wrap;
-gap:6px;
+display:grid;
+grid-template-columns:repeat(10, 42px);
+grid-auto-rows:24px;
+gap:0;
 }
 
 .hero{
@@ -82,30 +86,29 @@ cursor:pointer;
 width:42px;
 height:24px;
 object-fit:cover;
+display:block;
 }
 
 /* hero states */
 
 .hero.ally{
 outline:2px solid #00cc44;
-opacity:0.8;
 }
 
 .hero.enemy{
 outline:2px solid #cc3333;
-opacity:0.8;
 }
 
 .hero.disabled{
 pointer-events:none;
-opacity:0.4;
+opacity:0.6;
 }
 
 
-/* ROLE BUTTONS */
+/* ROLE FILTER */
 
 .roles{
-margin-top:20px;
+margin-top:8px;
 }
 
 .roleBtn{
@@ -123,10 +126,10 @@ color:white;
 /* SUGGESTIONS */
 
 #suggestions{
-margin-top:20px;
+margin-top:8px;
 display:grid;
-grid-template-columns:repeat(auto-fill,70px);
-gap:14px;
+grid-template-columns:repeat(auto-fill,60px);
+gap:6px;
 justify-content:center;
 max-width:900px;
 margin-left:auto;
@@ -144,8 +147,8 @@ object-fit:cover;
 }
 
 .score{
-font-size:12px;
-margin-top:3px;
+font-size:11px;
+margin-top:2px;
 }
 
 .score.pos{
