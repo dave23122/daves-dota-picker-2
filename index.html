@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dota Draft Helper</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>Dota Draft Helper</h1>
+
+<div class="teams">
+
+<div class="team-block">
+<h2>Your Team</h2>
+<div id="yourTeam" class="team"></div>
+</div>
+
+<div class="team-block">
+<h2>Enemy Team</h2>
+<div id="enemyTeam" class="team"></div>
+</div>
+
+</div>
+
+
+<input id="search" placeholder="Search heroes...">
+
+<div class="instructions">
+<b>How to Select Heroes</b><br>
+Left-click → add to <b>Your Team</b><br>
+Right-click → add to <b>Enemy Team</b><br>
+Click hero in team list to remove
+</div>
+
+
+<div id="heroGrid"></div>
+
+
+<div class="roles">
+Filter by role:
+<button class="roleBtn" data-role="1">1</button>
+<button class="roleBtn" data-role="2">2</button>
+<button class="roleBtn" data-role="3">3</button>
+<button class="roleBtn" data-role="4">4</button>
+<button class="roleBtn" data-role="5">5</button>
+</div>
+
+
+<h2>Suggested Picks</h2>
+
+<div id="suggestions"></div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>

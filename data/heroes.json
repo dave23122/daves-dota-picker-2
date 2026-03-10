@@ -1,0 +1,1193 @@
+{
+  "A": [
+    {
+      "hero_id": 102,
+      "name": "abaddon",
+      "displayName": "Abaddon",
+      "roles": [
+        3,
+        5
+      ]
+    },
+    {
+      "hero_id": 73,
+      "name": "alchemist",
+      "displayName": "Alchemist",
+      "roles": [
+        1,
+        3
+      ]
+    },
+    {
+      "hero_id": 68,
+      "name": "ancient_apparition",
+      "displayName": "Ancient Apparition",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 1,
+      "name": "antimage",
+      "displayName": "Anti-Mage",
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "hero_id": 113,
+      "name": "arc_warden",
+      "displayName": "Arc Warden",
+      "roles": [
+        2,
+        1
+      ]
+    },
+    {
+      "hero_id": 2,
+      "name": "axe",
+      "displayName": "Axe",
+      "roles": [
+        3,
+        4
+      ]
+    }
+  ],
+  "B": [
+    {
+      "hero_id": 3,
+      "name": "bane",
+      "displayName": "Bane",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 65,
+      "name": "batrider",
+      "displayName": "Batrider",
+      "roles": [
+        3,
+        2
+      ]
+    },
+    {
+      "hero_id": 38,
+      "name": "beastmaster",
+      "displayName": "Beastmaster",
+      "roles": [
+        3,
+        2
+      ]
+    },
+    {
+      "hero_id": 4,
+      "name": "bloodseeker",
+      "displayName": "Bloodseeker",
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "hero_id": 62,
+      "name": "bounty_hunter",
+      "displayName": "Bounty Hunter",
+      "roles": [
+        4,
+        5
+      ]
+    },
+    {
+      "hero_id": 78,
+      "name": "brewmaster",
+      "displayName": "Brewmaster",
+      "roles": [
+        3,
+        2
+      ]
+    },
+    {
+      "hero_id": 99,
+      "name": "bristleback",
+      "displayName": "Bristleback",
+      "roles": [
+        3,
+        1
+      ]
+    },
+    {
+      "hero_id": 61,
+      "name": "broodmother",
+      "displayName": "Broodmother",
+      "roles": [
+        2,
+        1
+      ]
+    }
+  ],
+  "C": [
+    {
+      "hero_id": 96,
+      "name": "centaur",
+      "displayName": "Centaur Warrunner",
+      "roles": [
+        3,
+        4
+      ]
+    },
+    {
+      "hero_id": 81,
+      "name": "chaos_knight",
+      "displayName": "Chaos Knight",
+      "roles": [
+        3,
+        1
+      ]
+    },
+    {
+      "hero_id": 66,
+      "name": "chen",
+      "displayName": "Chen",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 56,
+      "name": "clinkz",
+      "displayName": "Clinkz",
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "hero_id": 51,
+      "name": "rattletrap",
+      "displayName": "Clockwerk",
+      "roles": [
+        4,
+        5
+      ]
+    },
+    {
+      "hero_id": 5,
+      "name": "crystal_maiden",
+      "displayName": "Crystal Maiden",
+      "roles": [
+        5,
+        4
+      ]
+    }
+  ],
+  "D": [
+    {
+      "hero_id": 55,
+      "name": "dark_seer",
+      "displayName": "Dark Seer",
+      "roles": [
+        3,
+        4
+      ]
+    },
+    {
+      "hero_id": 119,
+      "name": "dark_willow",
+      "displayName": "Dark Willow",
+      "roles": [
+        4,
+        5
+      ]
+    },
+    {
+      "hero_id": 135,
+      "name": "dawnbreaker",
+      "displayName": "Dawnbreaker",
+      "roles": [
+        3,
+        2
+      ]
+    },
+    {
+      "hero_id": 50,
+      "name": "dazzle",
+      "displayName": "Dazzle",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 43,
+      "name": "death_prophet",
+      "displayName": "Death Prophet",
+      "roles": [
+        2,
+        3
+      ]
+    },
+    {
+      "hero_id": 87,
+      "name": "disruptor",
+      "displayName": "Disruptor",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 69,
+      "name": "doom_bringer",
+      "displayName": "Doom",
+      "roles": [
+        3,
+        2
+      ]
+    },
+    {
+      "hero_id": 49,
+      "name": "dragon_knight",
+      "displayName": "Dragon Knight",
+      "roles": [
+        3,
+        1
+      ]
+    },
+    {
+      "hero_id": 6,
+      "name": "drow_ranger",
+      "displayName": "Drow Ranger",
+      "roles": [
+        1,
+        2
+      ]
+    }
+  ],
+  "E": [
+    {
+      "hero_id": 107,
+      "name": "earth_spirit",
+      "displayName": "Earth Spirit",
+      "roles": [
+        4,
+        2
+      ]
+    },
+    {
+      "hero_id": 7,
+      "name": "earthshaker",
+      "displayName": "Earthshaker",
+      "roles": [
+        3,
+        4
+      ]
+    },
+    {
+      "hero_id": 103,
+      "name": "elder_titan",
+      "displayName": "Elder Titan",
+      "roles": [
+        3,
+        4
+      ]
+    },
+    {
+      "hero_id": 106,
+      "name": "ember_spirit",
+      "displayName": "Ember Spirit",
+      "roles": [
+        2,
+        1
+      ]
+    },
+    {
+      "hero_id": 58,
+      "name": "enchantress",
+      "displayName": "Enchantress",
+      "roles": [
+        4,
+        5
+      ]
+    },
+    {
+      "hero_id": 33,
+      "name": "enigma",
+      "displayName": "Enigma",
+      "roles": [
+        4,
+        3
+      ]
+    }
+  ],
+  "J": [
+    {
+      "hero_id": 64,
+      "name": "jakiro",
+      "displayName": "Jakiro",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 8,
+      "name": "juggernaut",
+      "displayName": "Juggernaut",
+      "roles": [
+        1,
+        3
+      ]
+    }
+  ],
+  "M": [
+    {
+      "hero_id": 97,
+      "name": "magnataur",
+      "displayName": "Magnus",
+      "roles": [
+        3,
+        4
+      ]
+    },
+    {
+      "hero_id": 136,
+      "name": "marci",
+      "displayName": "Marci",
+      "roles": [
+        2,
+        4
+      ]
+    },
+    {
+      "hero_id": 129,
+      "name": "mars",
+      "displayName": "Mars",
+      "roles": [
+        3,
+        2
+      ]
+    },
+    {
+      "hero_id": 94,
+      "name": "medusa",
+      "displayName": "Medusa",
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "hero_id": 82,
+      "name": "meepo",
+      "displayName": "Meepo",
+      "roles": [
+        2,
+        1
+      ]
+    },
+    {
+      "hero_id": 9,
+      "name": "mirana",
+      "displayName": "Mirana",
+      "roles": [
+        4,
+        5
+      ]
+    },
+    {
+      "hero_id": 114,
+      "name": "monkey_king",
+      "displayName": "Monkey King",
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "hero_id": 10,
+      "name": "morphling",
+      "displayName": "Morphling",
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "hero_id": 138,
+      "name": "muerta",
+      "displayName": "Muerta",
+      "roles": [
+        1,
+        2
+      ]
+    }
+  ],
+  "S": [
+    {
+      "hero_id": 16,
+      "name": "sand_king",
+      "displayName": "Sand King",
+      "roles": [
+        3,
+        2
+      ]
+    },
+    {
+      "hero_id": 79,
+      "name": "shadow_demon",
+      "displayName": "Shadow Demon",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 11,
+      "name": "nevermore",
+      "displayName": "Shadow Fiend",
+      "roles": [
+        2,
+        1
+      ]
+    },
+    {
+      "hero_id": 27,
+      "name": "shadow_shaman",
+      "displayName": "Shadow Shaman",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 75,
+      "name": "silencer",
+      "displayName": "Silencer",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 101,
+      "name": "skywrath_mage",
+      "displayName": "Skywrath Mage",
+      "roles": [
+        4,
+        5
+      ]
+    },
+    {
+      "hero_id": 28,
+      "name": "slardar",
+      "displayName": "Slardar",
+      "roles": [
+        3,
+        2
+      ]
+    },
+    {
+      "hero_id": 93,
+      "name": "slark",
+      "displayName": "Slark",
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "hero_id": 128,
+      "name": "snapfire",
+      "displayName": "Snapfire",
+      "roles": [
+        4,
+        5
+      ]
+    },
+    {
+      "hero_id": 35,
+      "name": "sniper",
+      "displayName": "Sniper",
+      "roles": [
+        2,
+        4
+      ]
+    },
+    {
+      "hero_id": 67,
+      "name": "spectre",
+      "displayName": "Spectre",
+      "roles": [
+        1,
+        3
+      ]
+    },
+    {
+      "hero_id": 71,
+      "name": "spirit_breaker",
+      "displayName": "Spirit Breaker",
+      "roles": [
+        4,
+        3
+      ]
+    },
+    {
+      "hero_id": 17,
+      "name": "storm_spirit",
+      "displayName": "Storm Spirit",
+      "roles": [
+        2,
+        1
+      ]
+    },
+    {
+      "hero_id": 18,
+      "name": "sven",
+      "displayName": "Sven",
+      "roles": [
+        1,
+        3
+      ]
+    }
+  ],
+  "P": [
+    {
+      "hero_id": 120,
+      "name": "pangolier",
+      "displayName": "Pangolier",
+      "roles": [
+        3,
+        2
+      ]
+    },
+    {
+      "hero_id": 44,
+      "name": "phantom_assassin",
+      "displayName": "Phantom Assassin",
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "hero_id": 12,
+      "name": "phantom_lancer",
+      "displayName": "Phantom Lancer",
+      "roles": [
+        1,
+        3
+      ]
+    },
+    {
+      "hero_id": 110,
+      "name": "phoenix",
+      "displayName": "Phoenix",
+      "roles": [
+        4,
+        5
+      ]
+    },
+    {
+      "hero_id": 137,
+      "name": "primal_beast",
+      "displayName": "Primal Beast",
+      "roles": [
+        3,
+        2
+      ]
+    },
+    {
+      "hero_id": 13,
+      "name": "puck",
+      "displayName": "Puck",
+      "roles": [
+        2,
+        4
+      ]
+    },
+    {
+      "hero_id": 14,
+      "name": "pudge",
+      "displayName": "Pudge",
+      "roles": [
+        4,
+        5
+      ]
+    },
+    {
+      "hero_id": 45,
+      "name": "pugna",
+      "displayName": "Pugna",
+      "roles": [
+        4,
+        5
+      ]
+    }
+  ],
+  "R": [
+    {
+      "hero_id": 15,
+      "name": "razor",
+      "displayName": "Razor",
+      "roles": [
+        3,
+        1
+      ]
+    },
+    {
+      "hero_id": 32,
+      "name": "riki",
+      "displayName": "Riki",
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "hero_id": 131,
+      "name": "ringmaster",
+      "displayName": "Ringmaster",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 86,
+      "name": "rubick",
+      "displayName": "Rubick",
+      "roles": [
+        4,
+        5
+      ]
+    }
+  ],
+  "T": [
+    {
+      "hero_id": 105,
+      "name": "techies",
+      "displayName": "Techies",
+      "roles": [
+        4,
+        5
+      ]
+    },
+    {
+      "hero_id": 46,
+      "name": "templar_assassin",
+      "displayName": "Templar Assassin",
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "hero_id": 109,
+      "name": "terrorblade",
+      "displayName": "Terrorblade",
+      "roles": [
+        1,
+        4
+      ]
+    },
+    {
+      "hero_id": 29,
+      "name": "tidehunter",
+      "displayName": "Tidehunter",
+      "roles": [
+        3,
+        4
+      ]
+    },
+    {
+      "hero_id": 98,
+      "name": "shredder",
+      "displayName": "Timbersaw",
+      "roles": [
+        3,
+        2
+      ]
+    },
+    {
+      "hero_id": 34,
+      "name": "tinker",
+      "displayName": "Tinker",
+      "roles": [
+        2,
+        4
+      ]
+    },
+    {
+      "hero_id": 19,
+      "name": "tiny",
+      "displayName": "Tiny",
+      "roles": [
+        4,
+        3
+      ]
+    },
+    {
+      "hero_id": 83,
+      "name": "treant",
+      "displayName": "Treant Protector",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 95,
+      "name": "troll_warlord",
+      "displayName": "Troll Warlord",
+      "roles": [
+        1,
+        3
+      ]
+    },
+    {
+      "hero_id": 100,
+      "name": "tusk",
+      "displayName": "Tusk",
+      "roles": [
+        4,
+        5
+      ]
+    }
+  ],
+  "V": [
+    {
+      "hero_id": 20,
+      "name": "vengefulspirit",
+      "displayName": "Vengeful Spirit",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 40,
+      "name": "venomancer",
+      "displayName": "Venomancer",
+      "roles": [
+        4,
+        5
+      ]
+    },
+    {
+      "hero_id": 47,
+      "name": "viper",
+      "displayName": "Viper",
+      "roles": [
+        2,
+        3
+      ]
+    },
+    {
+      "hero_id": 92,
+      "name": "visage",
+      "displayName": "Visage",
+      "roles": [
+        3,
+        2
+      ]
+    },
+    {
+      "hero_id": 126,
+      "name": "void_spirit",
+      "displayName": "Void Spirit",
+      "roles": [
+        2,
+        3
+      ]
+    }
+  ],
+  "W": [
+    {
+      "hero_id": 37,
+      "name": "warlock",
+      "displayName": "Warlock",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 63,
+      "name": "weaver",
+      "displayName": "Weaver",
+      "roles": [
+        1,
+        4
+      ]
+    },
+    {
+      "hero_id": 21,
+      "name": "windrunner",
+      "displayName": "Windranger",
+      "roles": [
+        4,
+        2
+      ]
+    },
+    {
+      "hero_id": 112,
+      "name": "winter_wyvern",
+      "displayName": "Winter Wyvern",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 30,
+      "name": "witch_doctor",
+      "displayName": "Witch Doctor",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 42,
+      "name": "skeleton_king",
+      "displayName": "Wraith King",
+      "roles": [
+        3,
+        1
+      ]
+    }
+  ],
+  "Z": [
+    {
+      "hero_id": 22,
+      "name": "zuus",
+      "displayName": "Zeus",
+      "roles": [
+        2,
+        4
+      ]
+    }
+  ],
+  "K": [
+    {
+      "hero_id": 90,
+      "name": "keeper_of_the_light",
+      "displayName": "Keeper of the Light",
+      "roles": [
+        2,
+        4
+      ]
+    },
+    {
+      "hero_id": 145,
+      "name": "kez",
+      "displayName": "Kez",
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "hero_id": 23,
+      "name": "kunkka",
+      "displayName": "Kunkka",
+      "roles": [
+        3,
+        2
+      ]
+    }
+  ],
+  "L": [
+    {
+      "hero_id": 155,
+      "name": "largo",
+      "displayName": "Largo",
+      "roles": [
+        3,
+        4
+      ]
+    },
+    {
+      "hero_id": 104,
+      "name": "legion_commander",
+      "displayName": "Legion Commander",
+      "roles": [
+        3,
+        2
+      ]
+    },
+    {
+      "hero_id": 52,
+      "name": "leshrac",
+      "displayName": "Leshrac",
+      "roles": [
+        2,
+        4
+      ]
+    },
+    {
+      "hero_id": 31,
+      "name": "lich",
+      "displayName": "Lich",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 54,
+      "name": "life_stealer",
+      "displayName": "Lifestealer",
+      "roles": [
+        1,
+        3
+      ]
+    },
+    {
+      "hero_id": 25,
+      "name": "lina",
+      "displayName": "Lina",
+      "roles": [
+        2,
+        4
+      ]
+    },
+    {
+      "hero_id": 26,
+      "name": "lion",
+      "displayName": "Lion",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 80,
+      "name": "lone_druid",
+      "displayName": "Lone Druid",
+      "roles": [
+        2,
+        1
+      ]
+    },
+    {
+      "hero_id": 48,
+      "name": "luna",
+      "displayName": "Luna",
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "hero_id": 77,
+      "name": "lycan",
+      "displayName": "Lycan",
+      "roles": [
+        3,
+        2
+      ]
+    }
+  ],
+  "N": [
+    {
+      "hero_id": 89,
+      "name": "naga_siren",
+      "displayName": "Naga Siren",
+      "roles": [
+        1,
+        5
+      ]
+    },
+    {
+      "hero_id": 53,
+      "name": "furion",
+      "displayName": "Nature's Prophet",
+      "roles": [
+        4,
+        2
+      ]
+    },
+    {
+      "hero_id": 36,
+      "name": "necrolyte",
+      "displayName": "Necrophos",
+      "roles": [
+        2,
+        3
+      ]
+    },
+    {
+      "hero_id": 60,
+      "name": "night_stalker",
+      "displayName": "Night Stalker",
+      "roles": [
+        3,
+        2
+      ]
+    },
+    {
+      "hero_id": 88,
+      "name": "nyx_assassin",
+      "displayName": "Nyx Assassin",
+      "roles": [
+        4,
+        2
+      ]
+    }
+  ],
+  "Q": [
+    {
+      "hero_id": 39,
+      "name": "queenofpain",
+      "displayName": "Queen of Pain",
+      "roles": [
+        2,
+        4
+      ]
+    }
+  ],
+  "F": [
+    {
+      "hero_id": 41,
+      "name": "faceless_void",
+      "displayName": "Faceless Void",
+      "roles": [
+        1,
+        3
+      ]
+    }
+  ],
+  "O": [
+    {
+      "hero_id": 84,
+      "name": "ogre_magi",
+      "displayName": "Ogre Magi",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 57,
+      "name": "omniknight",
+      "displayName": "Omniknight",
+      "roles": [
+        3,
+        5
+      ]
+    },
+    {
+      "hero_id": 111,
+      "name": "oracle",
+      "displayName": "Oracle",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 76,
+      "name": "obsidian_destroyer",
+      "displayName": "Outworld Destroyer",
+      "roles": [
+        2,
+        3
+      ]
+    }
+  ],
+  "H": [
+    {
+      "hero_id": 123,
+      "name": "hoodwink",
+      "displayName": "Hoodwink",
+      "roles": [
+        4,
+        5
+      ]
+    },
+    {
+      "hero_id": 59,
+      "name": "huskar",
+      "displayName": "Huskar",
+      "roles": [
+        2,
+        3
+      ]
+    }
+  ],
+  "U": [
+    {
+      "hero_id": 108,
+      "name": "abyssal_underlord",
+      "displayName": "Underlord",
+      "roles": [
+        3,
+        4
+      ]
+    },
+    {
+      "hero_id": 85,
+      "name": "undying",
+      "displayName": "Undying",
+      "roles": [
+        3,
+        4
+      ]
+    },
+    {
+      "hero_id": 70,
+      "name": "ursa",
+      "displayName": "Ursa",
+      "roles": [
+        1,
+        3
+      ]
+    }
+  ],
+  "G": [
+    {
+      "hero_id": 121,
+      "name": "grimstroke",
+      "displayName": "Grimstroke",
+      "roles": [
+        5,
+        4
+      ]
+    },
+    {
+      "hero_id": 72,
+      "name": "gyrocopter",
+      "displayName": "Gyrocopter",
+      "roles": [
+        1,
+        4
+      ]
+    }
+  ],
+  "I": [
+    {
+      "hero_id": 74,
+      "name": "invoker",
+      "displayName": "Invoker",
+      "roles": [
+        2,
+        4
+      ]
+    },
+    {
+      "hero_id": 91,
+      "name": "wisp",
+      "displayName": "Io",
+      "roles": [
+        5,
+        4
+      ]
+    }
+  ]
+}
