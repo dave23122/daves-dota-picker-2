@@ -25,6 +25,7 @@ createAlphabetFilter()
 createGrid()
 updateRoleButtons()
 updateSuggestions()
+document.getElementById("resetBtn").onclick=resetAll
 
 }
 
@@ -363,6 +364,35 @@ if(parseInt(btn.dataset.role)===roleFilter)
 btn.classList.add("active")
 
 })
+
+}
+
+function resetAll(){
+
+yourTeam=[]
+enemyTeam=[]
+
+alphabetFilter="*"
+roleFilter=1
+
+document.getElementById("search").value=""
+
+document.querySelectorAll(".alphaBtn")
+.forEach(b=>b.classList.remove("active"))
+
+document.querySelectorAll(".alphaBtn")
+.forEach(b=>{
+if(b.innerText==="*") b.classList.add("active")
+})
+
+document.querySelectorAll(".roleBtn")
+.forEach(b=>b.classList.remove("active"))
+
+document.querySelector('.roleBtn[data-role="1"]').classList.add("active")
+
+updateTeams()
+createGrid()
+updateSuggestions()
 
 }
 
