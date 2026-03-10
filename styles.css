@@ -39,9 +39,14 @@ margin:10px;
 }
 
 .instructions{
+position:absolute;
+top:20px;
+right:20px;
+text-align:left;
 font-size:13px;
 color:#bbb;
-margin-bottom:8px;
+max-width:200px;
+line-height:1.4;
 }
 
 
@@ -96,7 +101,7 @@ outline:2px solid #00cc44;
 outline:2px solid #cc3333;
 }
 
-.hero.disabled{
+.hero.disabled img{
 pointer-events:none;
 filter:grayscale(100%);
 opacity:0.35;
