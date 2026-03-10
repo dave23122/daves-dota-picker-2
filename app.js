@@ -7,6 +7,8 @@ let enemyTeam=[]
 
 let roleFilter=1
 
+let alphabetFilter="*"
+
 const heroGrid=document.getElementById("heroGrid")
 const suggestions=document.getElementById("suggestions")
 
@@ -19,6 +21,7 @@ const winrateResponse=await fetch("data/winrates.json")
 winrates=await winrateResponse.json()
 
 buildHeroMap()
+createAlphabetFilter()
 createGrid()
 updateRoleButtons()
 updateSuggestions()
@@ -61,9 +64,18 @@ heroList.push(hero)
 
 /* filter */
 
-heroList=heroList.filter(hero =>
+heroList=heroList.filter(hero => {
+
+let matchesSearch =
 hero.displayName.toLowerCase().includes(filter.toLowerCase())
-)
+
+let matchesLetter =
+alphabetFilter==="*" ||
+hero.displayName[0].toUpperCase()===alphabetFilter
+
+return matchesSearch && matchesLetter
+
+})
 
 let lastLetter=""
 
@@ -98,11 +110,15 @@ lastLetter=firstLetter
 
 /* click events */
 
-div.onclick=()=>addHero(hero.hero_id,true)
+div.onclick=()=>{
+addHero(hero.hero_id,true)
+document.getElementById("search").focus()
+}
 
 div.oncontextmenu=(e)=>{
 e.preventDefault()
 addHero(hero.hero_id,false)
+document.getElementById("search").focus()
 }
 
 /* tooltip */
@@ -345,6 +361,45 @@ btn.classList.remove("active")
 
 if(parseInt(btn.dataset.role)===roleFilter)
 btn.classList.add("active")
+
+})
+
+}
+
+function createAlphabetFilter(){
+
+const container=document.getElementById("alphabetFilter")
+
+const letters=["*"]
+
+Object.keys(heroesGrouped)
+.sort()
+.forEach(l=>letters.push(l))
+
+letters.forEach(letter=>{
+
+let btn=document.createElement("span")
+
+btn.className="alphaBtn"
+btn.innerText=letter
+
+if(letter==="*")
+btn.classList.add("active")
+
+btn.onclick=()=>{
+
+alphabetFilter=letter
+
+document.querySelectorAll(".alphaBtn")
+.forEach(b=>b.classList.remove("active"))
+
+btn.classList.add("active")
+
+createGrid(document.getElementById("search").value)
+
+}
+
+container.appendChild(btn)
 
 })
 

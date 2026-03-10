@@ -49,37 +49,37 @@ margin-bottom:8px;
 
 #heroGrid{
 display:grid;
-grid-template-columns:repeat(20, 56px);
-grid-auto-rows:42px;
+grid-template-columns:repeat(20, 60px);
+grid-auto-rows:46px;
 justify-content:center;
 margin:auto;
-max-width:1120px;
-gap:0;
+max-width:1300px;
+gap:6px;
 }
 
 .hero{
-width:56px;
-height:32px;
+width:60px;
+height:34px;
 cursor:pointer;
 position:relative;
 }
 
 .hero img{
-width:56px;
-height:32px;
+width:60px;
+height:34px;
 object-fit:cover;
 display:block;
 }
 
-/* alphabet label */
+/* alphabet label above hero */
 
 .heroLetter{
 position:absolute;
-top:-14px;
+top:-18px;
 left:2px;
-font-size:12px;
+font-size:16px;
 font-weight:bold;
-color:#aaa;
+color:white;
 pointer-events:none;
 }
 
@@ -156,6 +156,27 @@ color:#ff4040;
 
 .score.zero{
 color:white;
+}
+
+/* ALPHABET FILTER */
+
+#alphabetFilter{
+margin-bottom:8px;
+}
+
+.alphaBtn{
+display:inline-block;
+margin:2px;
+padding:4px 6px;
+cursor:pointer;
+color:#bbb;
+font-weight:bold;
+}
+
+.alphaBtn.active{
+color:white;
+background:#2f6bff;
+border-radius:3px;
 }
 
 /* TOOLTIP */
