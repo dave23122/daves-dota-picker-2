@@ -206,7 +206,6 @@ margin-right:auto;
 #resetBtn{
 grid-column:3;
 justify-self:end;
-transform: translateY(-20px);
 margin-right:20px;
 padding:6px 12px;
 font-weight:bold;
