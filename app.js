@@ -124,36 +124,6 @@ addHero(hero.hero_id,false)
 document.getElementById("search").focus()
 }
 
-/* tooltip */
-
-div.addEventListener("mouseenter",(e)=>{
-
-let tooltip=document.createElement("div")
-tooltip.className="heroTooltip"
-
-tooltip.innerHTML=
-`${hero.displayName}<br>Role: ${hero.roles[0]} / ${hero.roles[1]}`
-
-document.body.appendChild(tooltip)
-
-let rect=e.target.getBoundingClientRect()
-
-tooltip.style.left=(rect.left)+"px"
-tooltip.style.top=(rect.top-35)+"px"
-
-div.tooltip=tooltip
-
-})
-
-div.addEventListener("mouseleave",()=>{
-
-if(div.tooltip){
-div.tooltip.remove()
-div.tooltip=null
-}
-
-})
-
 heroGrid.appendChild(div)
 
 })
