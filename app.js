@@ -93,6 +93,8 @@ img.src=heroImage(hero.name)
 
 div.appendChild(img)
 
+addHeroTooltip(div, hero)
+
 /* detect first hero of letter */
 
 let firstLetter=hero.displayName[0].toUpperCase()
@@ -157,6 +159,37 @@ heroGrid.appendChild(div)
 })
 
 updateHeroStates()
+
+}
+
+function addHeroTooltip(element, hero){
+
+element.addEventListener("mouseenter",(e)=>{
+
+let tooltip=document.createElement("div")
+tooltip.className="heroTooltip"
+
+tooltip.innerHTML=hero.displayName
+
+document.body.appendChild(tooltip)
+
+let rect=e.target.getBoundingClientRect()
+
+tooltip.style.left=(rect.left)+"px"
+tooltip.style.top=(rect.top-35)+"px"
+
+element.tooltip=tooltip
+
+})
+
+element.addEventListener("mouseleave",()=>{
+
+if(element.tooltip){
+element.tooltip.remove()
+element.tooltip=null
+}
+
+})
 
 }
 
@@ -334,6 +367,9 @@ scoreText.classList.add("zero")
 
 div.appendChild(img)
 div.appendChild(scoreText)
+
+/* add tooltip */
+addHeroTooltip(div, item.hero)
 
 suggestions.appendChild(div)
 
