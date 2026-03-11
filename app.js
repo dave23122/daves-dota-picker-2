@@ -93,7 +93,7 @@ img.src=heroImage(hero.name)
 
 div.appendChild(img)
 
-addHeroTooltip(div, hero)
+addHeroTooltip(img, hero)
 
 /* detect first hero of letter */
 
@@ -369,7 +369,7 @@ div.appendChild(img)
 div.appendChild(scoreText)
 
 /* add tooltip */
-addHeroTooltip(div, item.hero)
+addHeroTooltip(img, item.hero)
 
 suggestions.appendChild(div)
 
