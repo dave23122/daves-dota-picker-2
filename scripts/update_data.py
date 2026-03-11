@@ -4,13 +4,10 @@ import os
 from collections import defaultdict
 
 URL = "https://api.stratz.com/graphql"
-TOKEN_FILE = "token.txt"
+API_TOKEN = os.environ["STRATZ_API_TOKEN"]
 
 DATA_DIR = "../data"
 os.makedirs(DATA_DIR, exist_ok=True)
-
-with open(TOKEN_FILE) as f:
-    API_TOKEN = f.read().strip()
 
 headers = {
     "Authorization": f"Bearer {API_TOKEN}",
