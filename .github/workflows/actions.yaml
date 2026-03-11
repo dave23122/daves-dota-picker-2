@@ -3,6 +3,9 @@ name: Update Hero Data
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
