@@ -30,6 +30,7 @@ jobs:
 
       - name: Commit updated data
         run: |
+          cat data/winrates.json
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add data/*.json
