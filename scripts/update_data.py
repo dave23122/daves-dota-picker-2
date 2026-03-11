@@ -7,7 +7,7 @@ from collections import defaultdict
 URL = "https://api.stratz.com/graphql"
 API_TOKEN = os.environ["STRATZ_API_TOKEN"]
 
-DATA_DIR = "../data"
+DATA_DIR = "data"
 os.makedirs(DATA_DIR, exist_ok=True)
 
 headers = {
