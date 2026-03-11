@@ -213,6 +213,7 @@ background:#525252;
 color:white;
 border:1px solid #666;
 border-radius:4px;
+transform:translateY(-10px);
 }
 
 #resetBtn:hover{

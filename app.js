@@ -162,16 +162,20 @@ updateHeroStates()
 
 function addHero(heroId,isAlly){
 
+/* prevent hero being added to both teams */
+
+if(yourTeam.includes(heroId) || enemyTeam.includes(heroId)){
+return
+}
+
 if(isAlly){
 
 if(yourTeam.length>=4) return
-if(!yourTeam.includes(heroId))
 yourTeam.push(heroId)
 
 }else{
 
 if(enemyTeam.length>=5) return
-if(!enemyTeam.includes(heroId))
 enemyTeam.push(heroId)
 
 }
