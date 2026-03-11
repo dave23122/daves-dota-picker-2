@@ -83,7 +83,8 @@ display:block;
 .heroLetter{
 position:absolute;
 top:-28px;
-left:2px;
+left:50%;
+transform:translateX(-50%);
 font-size:25px;
 font-weight:bold;
 color:white;
@@ -213,11 +214,10 @@ background:#525252;
 color:white;
 border:1px solid #666;
 border-radius:4px;
-transform:translateY(-10px);
 }
 
 #resetBtn:hover{
-background:#555;
+background:#acacac;
 }
 
 /* TOOLTIP */
