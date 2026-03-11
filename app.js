@@ -351,6 +351,17 @@ document.getElementById("search").addEventListener("input",(e)=>{
 createGrid(e.target.value)
 })
 
+document.getElementById("clearSearch").onclick=()=>{
+
+let search=document.getElementById("search")
+
+search.value=""
+search.focus()
+
+createGrid()
+
+}
+
 document.querySelectorAll(".roleBtn").forEach(btn=>{
 
 btn.onclick=()=>{

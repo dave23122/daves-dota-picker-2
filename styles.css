@@ -38,6 +38,25 @@ width:260px;
 margin:10px;
 }
 
+#searchContainer{
+display:inline-flex;
+align-items:center;
+gap:6px;
+}
+
+#clearSearch{
+padding:6px 10px;
+cursor:pointer;
+background:#333;
+color:white;
+border:1px solid #666;
+border-radius:4px;
+}
+
+#clearSearch:hover{
+background:#555;
+}
+
 .instructions{
 position:absolute;
 top:20px;
