@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import time
 from collections import defaultdict
 
 URL = "https://api.stratz.com/graphql"
@@ -79,7 +80,15 @@ for hero in heroes:
     }
 
     response = requests.post(URL, headers=headers, json=payload)
+
+    if response.status_code == 429:
+        print("Rate limited, waiting...")
+        time.sleep(5)
+        response = requests.post(URL, headers=headers, json=payload)
+
     data = response.json()
+
+    time.sleep(0.2)
 
     vs_list = data["data"]["heroStats"]["heroVsHeroMatchup"]["advantage"][0]["vs"]
     with_list = data["data"]["heroStats"]["heroVsHeroMatchup"]["advantage"][0]["with"]
@@ -131,7 +140,15 @@ roles_query = """
 """
 
 response = requests.post(URL, headers=headers, json={"query": roles_query})
+
+if response.status_code == 429:
+    print("Rate limited, waiting...")
+    time.sleep(5)
+    response = requests.post(URL, headers=headers, json={"query": roles_query})
+
 role_data = response.json()["data"]["heroStats"]["stats"]
+
+time.sleep(0.2)
 
 print("Calculating hero roles...")
 
