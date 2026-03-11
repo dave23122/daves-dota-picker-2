@@ -31,6 +31,8 @@ heroes_query = """
 """
 
 response = requests.post(URL, headers=headers, json={"query": heroes_query})
+print("Status:", response.status_code)
+print("Response text:", response.text[:500])
 heroes_data = response.json()["data"]["constants"]["heroes"]
 
 heroes = []
