@@ -252,3 +252,24 @@ z-index:1000;
 white-space:nowrap;
 border:1px solid #555;
 }
+
+#suggestionControls{
+display:flex;
+justify-content:center;
+align-items:flex-start;
+gap:40px;
+margin-top:20px;
+}
+
+#suggestionControls label{
+cursor:pointer;
+font-size:14px;
+}
+
+#modeExplanation{
+max-width:400px;
+text-align:left;
+font-size:13px;
+color:#bbb;
+line-height:1.4;
+}

@@ -44,6 +44,32 @@ for h in heroes_data:
         "displayName": h["displayName"]
     })
 
+print("Downloading base hero winrates...")
+
+base_query = """
+query baseWinRates {
+  heroStats {
+    stats {
+      heroId
+      winCount
+      matchCount
+    }
+  }
+}
+"""
+
+response = requests.post(URL, headers=headers, json={"query": base_query})
+data = response.json()["data"]["heroStats"]["stats"]
+
+base_winrates = {}
+
+for h in data:
+    if h["matchCount"] == 0:
+        continue
+
+    hero_id = str(h["heroId"])
+    base_winrates[hero_id] = (h["winCount"] / h["matchCount"]) - 0.5
+
 print("Downloading hero matchups...")
 
 matchup_query = """
@@ -202,5 +228,9 @@ print("Writing winrates.json")
 with open(f"{DATA_DIR}/winrates.json", "w") as f:
     json.dump(winrates, f)
 
+print("Writing base_winrates.json")
+
+with open(f"{DATA_DIR}/base_winrates.json", "w") as f:
+    json.dump(base_winrates, f)
 
 print("Done.")

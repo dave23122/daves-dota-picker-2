@@ -6,8 +6,9 @@ let yourTeam=[]
 let enemyTeam=[]
 
 let roleFilter=1
-
 let alphabetFilter="*"
+let scoreMode="winrate"
+let baseWinrates={}
 
 const heroGrid=document.getElementById("heroGrid")
 const suggestions=document.getElementById("suggestions")
@@ -20,12 +21,22 @@ heroesGrouped=await heroResponse.json()
 const winrateResponse=await fetch("data/winrates.json")
 winrates=await winrateResponse.json()
 
+const baseResponse=await fetch("data/base_winrates.json")
+baseWinrates=await baseResponse.json()
+
 buildHeroMap()
 createAlphabetFilter()
 createGrid()
 updateRoleButtons()
 updateSuggestions()
 document.getElementById("resetBtn").onclick=resetAll
+
+document.querySelectorAll('input[name="scoreMode"]').forEach(r=>{
+r.onchange=()=>{
+scoreMode=r.value
+updateSuggestions()
+}
+})
 
 }
 
@@ -262,33 +273,43 @@ function calculateScore(heroId){
 
 let score=0
 let count=0
+let base=baseWinrates[heroId] || 0
 
 enemyTeam.forEach(enemyId=>{
-
 let entry=winrates[heroId]?.[enemyId]
 
 if(entry && entry.vs!==undefined){
+
+if(scoreMode==="winrate"){
 score+=entry.vs
-count++
+}
+else{
+score+=(entry.vs-base)
 }
 
+count++
+}
 })
 
 yourTeam.forEach(allyId=>{
-
 let entry=winrates[heroId]?.[allyId]
 
 if(entry && entry.with!==undefined){
+
+if(scoreMode==="winrate"){
 score+=entry.with
-count++
+}
+else{
+score+=(entry.with-base)
 }
 
+count++
+}
 })
 
 if(count===0) return 0
 
 return score
-
 }
 
 function updateSuggestions(){
