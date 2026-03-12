@@ -254,22 +254,20 @@ border:1px solid #555;
 }
 
 #suggestionsHeader{
+position:relative;
 display:flex;
 align-items:center;
 width:100%;
 margin-bottom:10px;
 }
 
-.headerSpacer{
-flex:1;
-}
-
 #headingAndModes{
+position:absolute;
+left:50%;
+transform:translateX(-50%);
 display:flex;
 align-items:center;
 gap:15px;
-justify-content:center;
-flex:1;
 }
 
 #suggestionModes{
@@ -279,10 +277,10 @@ font-size:14px;
 }
 
 #modeExplanation{
-flex:1;
-text-align:right;
+margin-left:auto;
 max-width:420px;
 font-size:13px;
 color:#bbb;
 line-height:1.4;
+text-align:right;
 }
