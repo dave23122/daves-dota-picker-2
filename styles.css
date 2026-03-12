@@ -182,7 +182,7 @@ background:#acacac;
 /* TOOLTIP */
 
 .heroTooltip{
-position:absolute;
+position:fixed;
 background:#222;
 color:white;
 padding:6px 8px;
