@@ -256,29 +256,21 @@ border:1px solid #555;
 #suggestionsHeader{
 position:relative;
 width:100%;
-height:40px;
+height:50px;
+margin-top:10px;
 margin-bottom:10px;
 }
 
-#suggestionsHeader h2{
+#suggestionsTitle{
 position:absolute;
 left:50%;
 transform:translateX(-50%);
 margin:0;
 }
 
-#headingAndModes{
-position:absolute;
-left:50%;
-transform:translateX(-50%);
-display:flex;
-align-items:center;
-gap:15px;
-}
-
 #suggestionModes{
 position:absolute;
-right:320px;
+left:60%;
 top:50%;
 transform:translateY(-50%);
 display:flex;
