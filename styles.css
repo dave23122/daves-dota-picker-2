@@ -269,10 +269,8 @@ margin:0;
 }
 
 #suggestionModes{
-position:absolute;
-left:60%;
-top:50%;
-transform:translateY(-50%);
+display:flex;
+align-items:center;
 }
 
 #modeExplanation{
