@@ -156,8 +156,8 @@ document.body.appendChild(tooltip)
 
 let rect=e.target.getBoundingClientRect()
 
-tooltip.style.left = e.clientX + 20 + "px";
-tooltip.style.top = e.clientY - 10 + "px";
+tooltip.style.left = e.clientX + "px";
+tooltip.style.top = (e.clientY - tooltip.offsetHeight - 6) + "px";
 
 element.tooltip=tooltip
 
