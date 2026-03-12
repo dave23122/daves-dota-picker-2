@@ -256,21 +256,33 @@ border:1px solid #555;
 #suggestionsHeader{
 display:flex;
 align-items:center;
-gap:30px;
+width:100%;
 margin-bottom:10px;
+}
+
+.headerSpacer{
+flex:1;
+}
+
+#headingAndModes{
+display:flex;
+align-items:center;
+gap:15px;
+justify-content:center;
+flex:1;
 }
 
 #suggestionModes{
 display:flex;
-gap:15px;
+gap:12px;
 font-size:14px;
 }
 
 #modeExplanation{
-margin-left:auto;
+flex:1;
+text-align:right;
 max-width:420px;
 font-size:13px;
 color:#bbb;
 line-height:1.4;
-text-align:left;
 }
