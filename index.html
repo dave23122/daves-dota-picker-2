@@ -57,16 +57,14 @@ Filter by role:
 
 <h2 id="suggestionsTitle">Suggested Picks</h2>
 
-<div id="suggestionModes">
-<label>
-<input type="radio" name="scoreMode" value="winrate" checked>
-Winrate
-</label>
+<div id="suggestionModes" class="toggle">
 
-<label>
-<input type="radio" name="scoreMode" value="impact">
-Draft Impact
-</label>
+<input type="radio" id="modeWinrate" name="scoreMode" value="winrate" checked>
+<label for="modeWinrate">Winrate</label>
+
+<input type="radio" id="modeImpact" name="scoreMode" value="impact">
+<label for="modeImpact">Draft Impact</label>
+
 </div>
 
 <div id="modeExplanation">

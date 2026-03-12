@@ -80,7 +80,7 @@ margin:auto;
 margin-top:18px;
 max-width:1300px;
 column-gap:6px;
-row-gap:18px;
+row-gap:16px;
 }
 
 .hero{
@@ -273,9 +273,6 @@ position:absolute;
 left:60%;
 top:50%;
 transform:translateY(-50%);
-display:flex;
-gap:12px;
-font-size:14px;
 }
 
 #modeExplanation{
@@ -288,4 +285,33 @@ font-size:13px;
 color:#bbb;
 line-height:1.4;
 text-align:left;
+}
+
+.toggle{
+display:inline-flex;
+background:#222;
+border-radius:6px;
+overflow:hidden;
+border:1px solid #444;
+}
+
+.toggle input{
+display:none;
+}
+
+.toggle label{
+padding:6px 14px;
+font-size:13px;
+cursor:pointer;
+color:#bbb;
+transition:all 0.2s;
+}
+
+.toggle label:hover{
+background:#333;
+}
+
+.toggle input:checked + label{
+background:#2d6cdf;
+color:white;
 }
