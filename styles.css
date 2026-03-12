@@ -253,23 +253,24 @@ white-space:nowrap;
 border:1px solid #555;
 }
 
-#suggestionControls{
+#suggestionsHeader{
 display:flex;
-justify-content:center;
-align-items:flex-start;
-gap:40px;
-margin-top:20px;
+align-items:center;
+gap:30px;
+margin-bottom:10px;
 }
 
-#suggestionControls label{
-cursor:pointer;
+#suggestionModes{
+display:flex;
+gap:15px;
 font-size:14px;
 }
 
 #modeExplanation{
-max-width:400px;
-text-align:left;
+margin-left:auto;
+max-width:420px;
 font-size:13px;
 color:#bbb;
 line-height:1.4;
+text-align:left;
 }
