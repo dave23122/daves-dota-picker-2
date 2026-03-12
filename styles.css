@@ -127,46 +127,6 @@ filter:grayscale(100%);
 opacity:0.35;
 }
 
-/* SUGGESTIONS */
-
-#suggestions{
-margin-top:12px;
-display:grid;
-grid-template-columns:repeat(auto-fill,70px);
-gap:10px;
-justify-content:center;
-max-width:1000px;
-margin-left:auto;
-margin-right:auto;
-}
-
-.suggestion{
-text-align:center;
-}
-
-.suggestion img{
-width:70px;
-height:40px;
-object-fit:cover;
-}
-
-.score{
-font-size:12px;
-margin-top:2px;
-}
-
-.score.pos{
-color:#00cc44;
-}
-
-.score.neg{
-color:#ff4040;
-}
-
-.score.zero{
-color:white;
-}
-
 /* ALPHABET FILTER */
 
 #alphabetFilter{
@@ -234,6 +194,46 @@ white-space:nowrap;
 border:1px solid #555;
 }
 
+/* SUGGESTIONS */
+
+#suggestions{
+margin-top:12px;
+display:grid;
+grid-template-columns:repeat(auto-fill,70px);
+gap:10px;
+justify-content:center;
+max-width:1000px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.suggestion{
+text-align:center;
+}
+
+.suggestion img{
+width:70px;
+height:40px;
+object-fit:cover;
+}
+
+.score{
+font-size:12px;
+margin-top:2px;
+}
+
+.score.pos{
+color:#00cc44;
+}
+
+.score.neg{
+color:#ff4040;
+}
+
+.score.zero{
+color:white;
+}
+
 /* ROLE FILTER */
 
 .roles{
@@ -297,7 +297,7 @@ display:flex;
 justify-content: center;
 align-items:center;
 margin: auto;
-max-width:800px;
+max-width:900px;
 }
 
 .toggle{
