@@ -147,7 +147,7 @@ function addHeroTooltip(element, hero){
 
 const tooltip = document.createElement("div");
 tooltip.className = "heroTooltip";
-tooltip.textContent = hero.name;
+tooltip.textContent = hero.displayName;
 
 element.addEventListener("mouseenter", () => {
 
