@@ -49,7 +49,7 @@ print("Downloading base hero winrates...")
 base_query = """
 query baseWinRates {
   heroStats {
-    stats {
+    winMonth {
       heroId
       winCount
       matchCount
@@ -59,7 +59,7 @@ query baseWinRates {
 """
 
 response = requests.post(URL, headers=headers, json={"query": base_query})
-data = response.json()["data"]["heroStats"]["stats"]
+data = response.json()["data"]["heroStats"]["winMonth"]
 
 base_winrates = {}
 
