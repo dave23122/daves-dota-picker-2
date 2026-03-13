@@ -279,6 +279,9 @@ if(scoreMode==="winrate"){
 score+=entry.vs
 }
 else{
+alert(entry.vs)
+alert(base)
+alert(entry.vs-base)
 score+=(entry.vs-base)
 }
 
