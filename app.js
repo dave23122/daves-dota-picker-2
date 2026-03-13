@@ -143,21 +143,31 @@ updateHeroStates()
 
 }
 
-heroElement.addEventListener("mouseenter", () => {
+function addHeroTooltip(element, hero){
 
-tooltip.textContent = heroName;
+const tooltip = document.createElement("div");
+tooltip.className = "heroTooltip";
+tooltip.textContent = hero.name;
+
+element.addEventListener("mouseenter", () => {
 
 document.body.appendChild(tooltip);
 
-const rect = heroElement.getBoundingClientRect();
+const rect = element.getBoundingClientRect();
 
 tooltip.style.left =
-(rect.left + rect.width / 2 - tooltip.offsetWidth / 2) + "px";
+(rect.left + rect.width/2 - tooltip.offsetWidth/2) + "px";
 
 tooltip.style.top =
 (rect.top - tooltip.offsetHeight - 6) + "px";
 
 });
+
+element.addEventListener("mouseleave", () => {
+tooltip.remove();
+});
+
+}
 
 function addHero(heroId,isAlly){
 
