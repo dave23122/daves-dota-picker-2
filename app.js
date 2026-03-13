@@ -143,36 +143,21 @@ updateHeroStates()
 
 }
 
-function addHeroTooltip(element, hero){
+heroElement.addEventListener("mouseenter", () => {
 
-element.addEventListener("mouseenter",(e)=>{
+tooltip.textContent = heroName;
 
-let tooltip=document.createElement("div")
-tooltip.className="heroTooltip"
+document.body.appendChild(tooltip);
 
-tooltip.innerHTML=hero.displayName
+const rect = heroElement.getBoundingClientRect();
 
-document.body.appendChild(tooltip)
+tooltip.style.left =
+(rect.left + rect.width / 2 - tooltip.offsetWidth / 2) + "px";
 
-let rect=e.target.getBoundingClientRect()
+tooltip.style.top =
+(rect.top - tooltip.offsetHeight - 6) + "px";
 
-tooltip.style.left = e.clientX + "px";
-tooltip.style.top = (e.clientY - tooltip.offsetHeight - 6) + "px";
-
-element.tooltip=tooltip
-
-})
-
-element.addEventListener("mouseleave",()=>{
-
-if(element.tooltip){
-element.tooltip.remove()
-element.tooltip=null
-}
-
-})
-
-}
+});
 
 function addHero(heroId,isAlly){
 
