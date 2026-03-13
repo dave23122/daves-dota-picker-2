@@ -80,7 +80,7 @@ margin:auto;
 margin-top:18px;
 max-width:1300px;
 column-gap:6px;
-row-gap:1px;
+row-gap:5px;
 }
 
 .hero{
@@ -197,7 +197,7 @@ border:1px solid #555;
 /* SUGGESTIONS */
 
 #suggestions{
-margin-top:12px;
+margin-top:5px;
 display:grid;
 grid-template-columns:repeat(auto-fill,70px);
 gap:10px;
