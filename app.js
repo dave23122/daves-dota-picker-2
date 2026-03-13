@@ -279,16 +279,6 @@ if(scoreMode==="winrate"){
 score+=entry.vs
 }
 else{
-if (enemyId === 7 && heroId === 61) {
-let testscore = entry.vs - base;
-
-alert(`enemyId: ${enemyId}
-vs: ${entry.vs}
-base: ${base}
-testscore: ${testscore}`);
-
-testscore = 0;
-}
 score+=(entry.vs-base)
 }
 
