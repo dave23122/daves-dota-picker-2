@@ -50,6 +50,7 @@ base_query = """
 query baseWinRates {
   heroStats {
     winMonth {
+      month
       heroId
       winCount
       matchCount
@@ -61,9 +62,15 @@ query baseWinRates {
 response = requests.post(URL, headers=headers, json={"query": base_query})
 data = response.json()["data"]["heroStats"]["winMonth"]
 
+# Find newest month automatically
+latest_month = max(h["month"] for h in data)
+
 base_winrates = {}
 
 for h in data:
+    if h["month"] != latest_month:
+        continue
+
     if h["matchCount"] == 0:
         continue
 
