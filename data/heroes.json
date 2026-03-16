@@ -14,8 +14,8 @@
       "name": "alchemist",
       "displayName": "Alchemist",
       "roles": [
-        1,
-        4
+        4,
+        1
       ]
     },
     {
@@ -246,7 +246,7 @@
       "displayName": "Doom",
       "roles": [
         3,
-        2
+        4
       ]
     },
     {
@@ -451,8 +451,8 @@
       "name": "nevermore",
       "displayName": "Shadow Fiend",
       "roles": [
-        2,
-        1
+        1,
+        2
       ]
     },
     {
@@ -792,8 +792,8 @@
       "name": "visage",
       "displayName": "Visage",
       "roles": [
-        3,
-        2
+        2,
+        3
       ]
     },
     {
