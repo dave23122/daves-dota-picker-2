@@ -14,8 +14,8 @@
       "name": "alchemist",
       "displayName": "Alchemist",
       "roles": [
-        4,
-        1
+        1,
+        4
       ]
     },
     {
@@ -210,7 +210,7 @@
       "displayName": "Dawnbreaker",
       "roles": [
         3,
-        4
+        2
       ]
     },
     {
@@ -624,8 +624,8 @@
       "name": "pugna",
       "displayName": "Pugna",
       "roles": [
-        5,
-        4
+        4,
+        5
       ]
     }
   ],
@@ -1097,7 +1097,7 @@
       "displayName": "Outworld Destroyer",
       "roles": [
         2,
-        1
+        3
       ]
     }
   ],
