@@ -774,8 +774,8 @@
       "name": "venomancer",
       "displayName": "Venomancer",
       "roles": [
-        4,
-        5
+        5,
+        4
       ]
     },
     {
@@ -868,8 +868,8 @@
       "name": "zuus",
       "displayName": "Zeus",
       "roles": [
-        2,
-        4
+        4,
+        2
       ]
     }
   ],
@@ -909,7 +909,7 @@
       "displayName": "Largo",
       "roles": [
         3,
-        5
+        4
       ]
     },
     {
