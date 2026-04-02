@@ -44,6 +44,14 @@ Click hero in team list to remove
 
 <div id="heroGrid"></div>
 
+<div id="suggestionsHeader">
+<h2 id="suggestionsTitle">Suggested Picks</h2>
+</div>
+
+<div id="controlsRow">
+
+<div id="controlsCenter">
+
 <div class="roles">
 Filter by role:
 <button class="roleBtn" data-role="1">1</button>
@@ -53,7 +61,22 @@ Filter by role:
 <button class="roleBtn" data-role="5">5</button>
 </div>
 
-<h2>Suggested Picks</h2>
+<div id="suggestionModes" class="toggle">
+<input type="radio" id="modeWinrate" name="scoreMode" value="winrate" checked>
+<label for="modeWinrate">Winrate</label>
+<input type="radio" id="modeImpact" name="scoreMode" value="impact">
+<label for="modeImpact">Draft Impact</label>
+</div>
+
+</div>
+
+<div id="modeExplanation">
+<b>Winrate:</b> Shows heroes with the highest average winrate with or against the currently selected heroes.
+<br>
+<b>Draft Impact:</b> Measures how much each hero benefits from the current draft by comparing matchup winrates to the hero's overall base winrate.
+</div>
+
+</div>
 
 <div id="suggestions"></div>
 

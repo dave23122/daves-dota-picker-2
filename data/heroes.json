@@ -15,7 +15,7 @@
       "displayName": "Alchemist",
       "roles": [
         1,
-        4
+        3
       ]
     },
     {
@@ -70,8 +70,8 @@
       "name": "batrider",
       "displayName": "Batrider",
       "roles": [
-        3,
-        2
+        2,
+        3
       ]
     },
     {
@@ -246,7 +246,7 @@
       "displayName": "Doom",
       "roles": [
         3,
-        2
+        1
       ]
     },
     {
@@ -320,7 +320,7 @@
       "displayName": "Enigma",
       "roles": [
         4,
-        3
+        5
       ]
     }
   ],
@@ -515,7 +515,7 @@
       "displayName": "Sniper",
       "roles": [
         2,
-        4
+        1
       ]
     },
     {
@@ -561,8 +561,8 @@
       "name": "pangolier",
       "displayName": "Pangolier",
       "roles": [
-        3,
-        2
+        2,
+        3
       ]
     },
     {
@@ -636,7 +636,7 @@
       "displayName": "Razor",
       "roles": [
         3,
-        1
+        2
       ]
     },
     {
@@ -774,8 +774,8 @@
       "name": "venomancer",
       "displayName": "Venomancer",
       "roles": [
-        4,
-        5
+        5,
+        4
       ]
     },
     {
@@ -792,8 +792,8 @@
       "name": "visage",
       "displayName": "Visage",
       "roles": [
-        3,
-        2
+        2,
+        3
       ]
     },
     {
@@ -831,7 +831,7 @@
       "displayName": "Windranger",
       "roles": [
         4,
-        1
+        2
       ]
     },
     {
@@ -868,8 +868,8 @@
       "name": "zuus",
       "displayName": "Zeus",
       "roles": [
-        2,
-        4
+        4,
+        2
       ]
     }
   ],
@@ -1001,7 +1001,7 @@
       "displayName": "Naga Siren",
       "roles": [
         1,
-        5
+        3
       ]
     },
     {
@@ -1037,7 +1037,7 @@
       "displayName": "Nyx Assassin",
       "roles": [
         4,
-        2
+        5
       ]
     }
   ],
@@ -1136,8 +1136,8 @@
       "name": "undying",
       "displayName": "Undying",
       "roles": [
-        3,
-        4
+        4,
+        3
       ]
     },
     {

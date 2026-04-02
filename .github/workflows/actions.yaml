@@ -1,6 +1,8 @@
 name: Update Hero Data
 
 on:
+  schedule:
+    - cron: '0 23 * * *'   # 9:00 AM Melbourne during AEST
   workflow_dispatch:
 
 permissions:
