@@ -70,8 +70,8 @@
       "name": "batrider",
       "displayName": "Batrider",
       "roles": [
-        2,
-        3
+        3,
+        2
       ]
     },
     {
@@ -293,7 +293,7 @@
       "displayName": "Elder Titan",
       "roles": [
         3,
-        4
+        5
       ]
     },
     {
@@ -692,7 +692,7 @@
       "displayName": "Terrorblade",
       "roles": [
         1,
-        3
+        4
       ]
     },
     {
@@ -727,8 +727,8 @@
       "name": "tiny",
       "displayName": "Tiny",
       "roles": [
-        4,
-        3
+        3,
+        4
       ]
     },
     {
@@ -1097,7 +1097,7 @@
       "displayName": "Outworld Destroyer",
       "roles": [
         2,
-        3
+        4
       ]
     }
   ],
@@ -1137,7 +1137,7 @@
       "displayName": "Undying",
       "roles": [
         4,
-        3
+        5
       ]
     },
     {
