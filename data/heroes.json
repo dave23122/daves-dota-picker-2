@@ -5,8 +5,8 @@
       "name": "abaddon",
       "displayName": "Abaddon",
       "roles": [
-        3,
-        5
+        5,
+        3
       ]
     },
     {
@@ -293,7 +293,7 @@
       "displayName": "Elder Titan",
       "roles": [
         3,
-        5
+        4
       ]
     },
     {
@@ -310,8 +310,8 @@
       "name": "enchantress",
       "displayName": "Enchantress",
       "roles": [
-        5,
-        4
+        4,
+        5
       ]
     },
     {
@@ -727,8 +727,8 @@
       "name": "tiny",
       "displayName": "Tiny",
       "roles": [
-        4,
-        3
+        3,
+        4
       ]
     },
     {
