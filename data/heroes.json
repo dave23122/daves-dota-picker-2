@@ -255,7 +255,7 @@
       "displayName": "Dragon Knight",
       "roles": [
         3,
-        1
+        2
       ]
     },
     {
@@ -1097,7 +1097,7 @@
       "displayName": "Outworld Destroyer",
       "roles": [
         2,
-        3
+        4
       ]
     }
   ],
