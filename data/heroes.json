@@ -5,8 +5,8 @@
       "name": "abaddon",
       "displayName": "Abaddon",
       "roles": [
-        3,
-        5
+        5,
+        3
       ]
     },
     {
@@ -692,7 +692,7 @@
       "displayName": "Terrorblade",
       "roles": [
         1,
-        4
+        3
       ]
     },
     {
@@ -908,8 +908,8 @@
       "name": "largo",
       "displayName": "Largo",
       "roles": [
-        3,
-        4
+        4,
+        5
       ]
     },
     {
@@ -1097,7 +1097,7 @@
       "displayName": "Outworld Destroyer",
       "roles": [
         2,
-        3
+        4
       ]
     }
   ],
