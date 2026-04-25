@@ -116,7 +116,7 @@
       "displayName": "Bristleback",
       "roles": [
         3,
-        1
+        2
       ]
     },
     {
@@ -246,7 +246,7 @@
       "displayName": "Doom",
       "roles": [
         3,
-        2
+        1
       ]
     },
     {
@@ -320,7 +320,7 @@
       "displayName": "Enigma",
       "roles": [
         4,
-        3
+        5
       ]
     }
   ],
@@ -908,8 +908,8 @@
       "name": "largo",
       "displayName": "Largo",
       "roles": [
-        4,
-        5
+        5,
+        4
       ]
     },
     {
@@ -1097,7 +1097,7 @@
       "displayName": "Outworld Destroyer",
       "roles": [
         2,
-        4
+        3
       ]
     }
   ],
