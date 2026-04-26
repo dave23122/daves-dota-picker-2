@@ -310,8 +310,8 @@
       "name": "enchantress",
       "displayName": "Enchantress",
       "roles": [
-        4,
-        5
+        5,
+        4
       ]
     },
     {
@@ -1097,7 +1097,7 @@
       "displayName": "Outworld Destroyer",
       "roles": [
         2,
-        3
+        4
       ]
     }
   ],
