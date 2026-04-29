@@ -310,8 +310,8 @@
       "name": "enchantress",
       "displayName": "Enchantress",
       "roles": [
-        4,
-        5
+        5,
+        4
       ]
     },
     {
@@ -908,8 +908,8 @@
       "name": "largo",
       "displayName": "Largo",
       "roles": [
-        5,
-        3
+        3,
+        5
       ]
     },
     {
