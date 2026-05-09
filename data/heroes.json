@@ -293,7 +293,7 @@
       "displayName": "Elder Titan",
       "roles": [
         3,
-        5
+        4
       ]
     },
     {
@@ -360,7 +360,7 @@
       "displayName": "Marci",
       "roles": [
         2,
-        5
+        4
       ]
     },
     {
@@ -1037,7 +1037,7 @@
       "displayName": "Nyx Assassin",
       "roles": [
         4,
-        2
+        5
       ]
     }
   ],
