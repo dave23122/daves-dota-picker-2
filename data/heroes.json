@@ -246,7 +246,7 @@
       "displayName": "Doom",
       "roles": [
         3,
-        1
+        2
       ]
     },
     {
@@ -692,7 +692,7 @@
       "displayName": "Terrorblade",
       "roles": [
         1,
-        4
+        3
       ]
     },
     {
@@ -908,8 +908,8 @@
       "name": "largo",
       "displayName": "Largo",
       "roles": [
-        3,
-        5
+        5,
+        3
       ]
     },
     {
@@ -1136,8 +1136,8 @@
       "name": "undying",
       "displayName": "Undying",
       "roles": [
-        5,
-        4
+        4,
+        5
       ]
     },
     {
