@@ -5,8 +5,8 @@
       "name": "abaddon",
       "displayName": "Abaddon",
       "roles": [
-        3,
-        5
+        5,
+        3
       ]
     },
     {
@@ -116,7 +116,7 @@
       "displayName": "Bristleback",
       "roles": [
         3,
-        2
+        1
       ]
     },
     {
@@ -908,8 +908,8 @@
       "name": "largo",
       "displayName": "Largo",
       "roles": [
-        5,
-        3
+        3,
+        5
       ]
     },
     {
