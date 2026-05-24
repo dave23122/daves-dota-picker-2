@@ -116,7 +116,7 @@
       "displayName": "Bristleback",
       "roles": [
         3,
-        2
+        1
       ]
     },
     {
@@ -171,8 +171,8 @@
       "name": "rattletrap",
       "displayName": "Clockwerk",
       "roles": [
-        5,
-        4
+        4,
+        5
       ]
     },
     {
@@ -284,7 +284,7 @@
       "displayName": "Earthshaker",
       "roles": [
         3,
-        2
+        4
       ]
     },
     {
@@ -360,7 +360,7 @@
       "displayName": "Marci",
       "roles": [
         2,
-        5
+        4
       ]
     },
     {
@@ -423,7 +423,7 @@
       "displayName": "Muerta",
       "roles": [
         1,
-        4
+        2
       ]
     }
   ],
@@ -505,8 +505,8 @@
       "name": "snapfire",
       "displayName": "Snapfire",
       "roles": [
-        2,
-        4
+        4,
+        2
       ]
     },
     {
@@ -515,7 +515,7 @@
       "displayName": "Sniper",
       "roles": [
         2,
-        4
+        1
       ]
     },
     {
@@ -692,7 +692,7 @@
       "displayName": "Terrorblade",
       "roles": [
         1,
-        4
+        3
       ]
     },
     {
@@ -754,8 +754,8 @@
       "name": "tusk",
       "displayName": "Tusk",
       "roles": [
-        5,
-        4
+        4,
+        5
       ]
     }
   ],
@@ -909,7 +909,7 @@
       "displayName": "Largo",
       "roles": [
         3,
-        4
+        5
       ]
     },
     {
@@ -1001,7 +1001,7 @@
       "displayName": "Naga Siren",
       "roles": [
         1,
-        5
+        4
       ]
     },
     {
@@ -1010,7 +1010,7 @@
       "displayName": "Nature's Prophet",
       "roles": [
         4,
-        5
+        2
       ]
     },
     {
@@ -1037,7 +1037,7 @@
       "displayName": "Nyx Assassin",
       "roles": [
         4,
-        2
+        5
       ]
     }
   ],
@@ -1136,8 +1136,8 @@
       "name": "undying",
       "displayName": "Undying",
       "roles": [
-        5,
-        4
+        4,
+        5
       ]
     },
     {
