@@ -71,7 +71,7 @@
       "displayName": "Batrider",
       "roles": [
         4,
-        2
+        3
       ]
     },
     {
@@ -200,8 +200,8 @@
       "name": "dark_willow",
       "displayName": "Dark Willow",
       "roles": [
-        4,
-        5
+        5,
+        4
       ]
     },
     {
