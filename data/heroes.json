@@ -116,7 +116,7 @@
       "displayName": "Bristleback",
       "roles": [
         3,
-        1
+        4
       ]
     },
     {
@@ -774,8 +774,8 @@
       "name": "venomancer",
       "displayName": "Venomancer",
       "roles": [
-        5,
-        4
+        4,
+        5
       ]
     },
     {
