@@ -293,7 +293,7 @@
       "displayName": "Elder Titan",
       "roles": [
         3,
-        5
+        4
       ]
     },
     {
@@ -310,8 +310,8 @@
       "name": "enchantress",
       "displayName": "Enchantress",
       "roles": [
-        5,
-        4
+        4,
+        5
       ]
     },
     {
@@ -908,8 +908,8 @@
       "name": "largo",
       "displayName": "Largo",
       "roles": [
-        5,
-        3
+        3,
+        5
       ]
     },
     {
