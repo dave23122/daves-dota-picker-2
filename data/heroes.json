@@ -70,8 +70,8 @@
       "name": "batrider",
       "displayName": "Batrider",
       "roles": [
-        4,
-        3
+        3,
+        4
       ]
     },
     {
@@ -200,8 +200,8 @@
       "name": "dark_willow",
       "displayName": "Dark Willow",
       "roles": [
-        4,
-        5
+        5,
+        4
       ]
     },
     {
@@ -293,7 +293,7 @@
       "displayName": "Elder Titan",
       "roles": [
         3,
-        5
+        4
       ]
     },
     {
@@ -1097,7 +1097,7 @@
       "displayName": "Outworld Destroyer",
       "roles": [
         2,
-        3
+        4
       ]
     }
   ],
