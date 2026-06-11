@@ -293,7 +293,7 @@
       "displayName": "Elder Titan",
       "roles": [
         3,
-        5
+        4
       ]
     },
     {
@@ -868,8 +868,8 @@
       "name": "zuus",
       "displayName": "Zeus",
       "roles": [
-        4,
-        2
+        2,
+        4
       ]
     }
   ],
