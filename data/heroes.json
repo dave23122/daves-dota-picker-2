@@ -5,8 +5,8 @@
       "name": "abaddon",
       "displayName": "Abaddon",
       "roles": [
-        5,
-        3
+        3,
+        5
       ]
     },
     {
@@ -765,8 +765,8 @@
       "name": "vengefulspirit",
       "displayName": "Vengeful Spirit",
       "roles": [
-        5,
-        1
+        1,
+        5
       ]
     },
     {
@@ -1097,7 +1097,7 @@
       "displayName": "Outworld Destroyer",
       "roles": [
         2,
-        3
+        4
       ]
     }
   ],
