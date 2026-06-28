@@ -754,8 +754,8 @@
       "name": "tusk",
       "displayName": "Tusk",
       "roles": [
-        4,
-        5
+        5,
+        4
       ]
     }
   ],
@@ -927,7 +927,7 @@
       "displayName": "Leshrac",
       "roles": [
         2,
-        4
+        3
       ]
     },
     {
