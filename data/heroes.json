@@ -274,8 +274,8 @@
       "name": "earth_spirit",
       "displayName": "Earth Spirit",
       "roles": [
-        2,
-        4
+        4,
+        2
       ]
     },
     {
@@ -766,7 +766,7 @@
       "displayName": "Vengeful Spirit",
       "roles": [
         5,
-        4
+        1
       ]
     },
     {
