@@ -5,8 +5,8 @@
       "name": "abaddon",
       "displayName": "Abaddon",
       "roles": [
-        3,
-        5
+        5,
+        3
       ]
     },
     {
@@ -1097,7 +1097,7 @@
       "displayName": "Outworld Destroyer",
       "roles": [
         2,
-        3
+        4
       ]
     }
   ],
@@ -1137,7 +1137,7 @@
       "displayName": "Undying",
       "roles": [
         3,
-        4
+        5
       ]
     },
     {
